@@ -15,7 +15,7 @@ const Job = db.define('job', {
         allowNull: false,
     },
     employmentType: {
-        type: DataTypes.STRING,
+        type: DataTypes.BOOLEAN,
     }
 
 })
